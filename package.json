@@ -1,0 +1,19 @@
+{
+    "name": "browser-testing",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "author": "Nicola Spadari",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test:chrome": "npx playwright test --headed --browser=chromium",
+        "test:firefox": "npx playwright test --headed --browser=firefox",
+        "test:safari": "npx playwright test --headed --browser=webkit"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^0.27.0",
+        "@playwright/test": "^1.27.1",
+        "eslint": "^8.26.0"
+    }
+}
