@@ -15,16 +15,6 @@
         "@typescript-eslint/quotes": ["error", "double"],
         "@typescript-eslint/comma-dangle": ["warn", "never"],
         "@typescript-eslint/brace-style": ["error", "1tbs"],
-        "jsonc/indent": ["error", 4],
-        "vue/html-indent": ["error", 4, {
-            "baseIndent": 1
-        }],
-        "vue/script-indent": ["error", 4, {
-            "baseIndent": 1
-        }],
-        "vue/component-tags-order": ["error", {
-            "order": ["template", "script", "style"]
-        }],
-        "vue/valid-attribute-name": ["off"]
+        "jsonc/indent": ["error", 4]
     }
 }
