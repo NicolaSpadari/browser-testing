@@ -2,12 +2,13 @@
     "name": "browser-testing",
     "version": "1.0.0",
     "private": true,
+    "packageManager": "pnpm@8.4.0",
     "description": "",
     "author": "Nicola Spadari",
-	"packageManager": "pnpm@8.4.0",
     "license": "MIT",
     "main": "index.js",
     "scripts": {
+        "pwr:install": "npx playwright install",
         "test:chrome": "npx playwright test --headed --browser=chromium",
         "test:firefox": "npx playwright test --headed --browser=firefox",
         "test:safari": "npx playwright test --headed --browser=webkit"
